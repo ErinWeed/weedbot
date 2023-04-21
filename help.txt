@@ -1,0 +1,11 @@
+Usage: command [arguments]
+!help -displays a helpful summary of commands
+!lorem -produces lorem ipsum words
+!virus -gives number of current (not accumulative) cases in Utah County
+!dadjoke -tells a random dad joke
+!chuck -tells a random Chuck Norris joke
+!die -kills your bot
+!text -sends a text message to someone's phone
+!email -sends email
+!music -streams music remotely
+!weather -gives local weather blurb
