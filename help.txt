@@ -1,11 +1,43 @@
 Usage: command [arguments]
-!help -displays a helpful summary of commands
-!lorem -produces lorem ipsum words
-!virus -gives number of current (not accumulative) cases in Utah County
-!dadjoke -tells a random dad joke
-!chuck -tells a random Chuck Norris joke
-!die -kills your bot
-!text -sends a text message to someone's phone
-!email -sends email
-!music -streams music remotely
-!weather -gives local weather blurb
+
+Command: !help
+Description: Displays a helpful summary of commands
+
+Command: !air (county)
+Description: Displays the three day air quality forcast for the provided county
+Argument: The name of the county for which you want to see the air quality forecast. 
+County Options: Salt Lake, Box Elder, Carbon, Davis, Duchesne, Iron, Tooele, Uintah, Washington
+
+Command: !cat
+Descriptions: Displays a random cat photo
+
+Command: !chuck
+Description: Tells a random Chuck Norris joke
+
+Command: !dadjoke
+Description: Tells a random dad joke
+
+Command: !die
+Description: Kills the bot
+
+Command: !email or /email (recipient name, recipient email, your name, type)
+Description: Sends an email
+Arguments: the recipient's name, recipient email, your name, and the type of email you'd like to send.
+Type Options: breakup, cheerup, congratulations, sayhello
+
+Command: !lorem [number of sentences]
+Description: Produces hipster ipsum words because this bot was into lorem before it was cool.
+Argument: The number of sentences to generate (1-20). Default is 3 if no number is provided. 
+
+Command: !music (type)
+Description: Streams music remotely
+Argument: The type of music you'd like to play. The options are calming, techno, jazz, and viola.
+
+Command: !text (message)
+Description: Sends a text message to my creator's phone
+Argument: The message you'd like to send.
+
+Command: !weather (zipcode)
+Description: Describes the current weather for the provided zipcode
+Argument: A 5 digit zipcode
+
