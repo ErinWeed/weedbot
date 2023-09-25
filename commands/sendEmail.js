@@ -24,7 +24,7 @@ async function sendEmail(args) {
   let chosenTemplate = args[3]
   const messageData = {
     to: args[1],
-    from: 'erinllynch@gmail.com',
+    from: process.env.FROM_EMAIL,
     subject: 'test',
     template_id: emailTypes[chosenTemplate],
     dynamic_template_data: {
