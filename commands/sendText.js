@@ -10,8 +10,8 @@ async function sendText(args) {
     words = args.join(' ')
   }
   const message = {
-    from: '+14352654329',
-    to: '+18018971552',
+    from: process.env.FROM_PHONE,
+    to: process.env.TO_PHONE,
     body: words,
   }
   try {
